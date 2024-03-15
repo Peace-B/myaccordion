@@ -1,8 +1,6 @@
 import React from 'react'
 import "../CSS/Home.css"
 import Star from "../assets/icon-star.svg"
-// import Plus from "../assets/icon-plus.svg"
-// import Minus from "../assets/icon-minus.svg"
 import { accordData } from '../DB/AccordDb'
 import { useState } from 'react'
 
@@ -22,9 +20,7 @@ const Home = () => {
     <div className="body">
        <div className='main md-col-12'>
            <div className="main-sec">
-            {/* first */}
             <div className="pic-bg"></div>
-              {/* second */}
               <div className='main-content'>
                 <div className="top">
                   <img src={Star} alt="" className='topimg'/>
